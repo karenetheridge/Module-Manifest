@@ -61,7 +61,6 @@ contact the maintainer.
 
 =cut
 
-use 5.00503;
 use strict;
 use Carp             ();
 use File::Spec       ();
@@ -69,10 +68,7 @@ use File::Spec::Unix ();
 use File::Basename   ();
 use Params::Util     ();
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '1.09';
-}
+our $VERSION = '1.09';
 
 # These platforms were copied from File::Spec
 my %platforms = (

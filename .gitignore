@@ -1,0 +1,6 @@
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Module-Manifest-*/
+/Module-Manifest-*.tar.gz

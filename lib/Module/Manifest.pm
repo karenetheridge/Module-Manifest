@@ -68,7 +68,7 @@ use File::Spec::Unix ();
 use File::Basename   ();
 use Params::Util     ();
 
-our $VERSION = '1.09';
+our $VERSION = '1.10';
 
 # These platforms were copied from File::Spec
 my %platforms = (

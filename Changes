@@ -1,6 +1,6 @@
 Revision history for Module-Manifest
 
-{{$NEXT}}
+1.09      2017-12-20 01:34:15Z
         - switch packaging to Dist::Zilla, which makes the distribution
           installable again on perl 5.27.7  (See RT#123867)
 

@@ -27,7 +27,7 @@ F<MANIFEST.SKIP> file and check that.
 
 Granted, the functionality needed to do this is quite simple, but the
 Perl distribution F<MANIFEST> specification contains a couple of little
-idiosyncracies, such as line comments and space-seperated inline
+idiosyncrasies, such as line comments and space-separated inline
 comments.
 
 The use of this module means that any little nigglies are dealt with behind
@@ -38,7 +38,7 @@ the scenes, and you can concentrate the main task at hand.
 This module is quite similar to L<ExtUtils::Manifest>, or is at least
 similar in scope. However, there is a general difference in approach.
 
-L<ExtUtils::Manifest> is imperative, requires the existance of the actual
+L<ExtUtils::Manifest> is imperative, requires the existence of the actual
 F<MANIFEST> file on disk, and requires that your current directory remains
 the same.
 
@@ -47,7 +47,7 @@ a the file from anywhere on disk, and can run some of the same
 functionality without having to change your current directory context.
 
 That said, note that L<Module::Manifest> is aimed at reading and checking
-existing MANFIFEST files, rather than creating new ones.
+existing F<MANIFEST> files, rather than creating new ones.
 
 =head1 COMPATIBILITY
 
@@ -441,7 +441,7 @@ address above.
 
 Adam Kennedy E<lt>adamk@cpan.orgE<gt>
 
-=head2 CONTIRBUTORS
+=head2 CONTRIBUTORS
 
 Jonathan Yu E<lt>jawnsy@cpan.orgE<gt>
 
